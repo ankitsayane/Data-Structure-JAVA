@@ -1,0 +1,35 @@
+package com.operations;
+
+public class LinkedListQueue implements Queue {
+	class Node{
+		int data;
+		Node next;
+	}
+	
+	Node head;
+
+	@Override
+	public void enQueue(int data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deQueue() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

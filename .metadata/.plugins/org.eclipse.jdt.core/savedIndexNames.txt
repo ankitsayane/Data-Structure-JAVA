@@ -1,0 +1,14 @@
+INDEX VERSION 1.134+D:\CDAC\Data Structure\DSA Assignment\.metadata\.plugins\org.eclipse.jdt.core
+1053989003.index
+565515602.index
+3115440780.index
+187025784.index
+847780746.index
+1865797976.index
+3739773649.index
+3717304515.index
+1615116574.index
+197722586.index
+2616073149.index
+2844676488.index
+3821311178.index

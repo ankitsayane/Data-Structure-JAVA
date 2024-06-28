@@ -1,0 +1,24 @@
+package com.tester;
+
+import com.operations.LinkedList;
+import com.operations.DoublyLinkedList;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		LinkedList a = DoublyLinkedList();
+		
+		a.insertAtFront(2);
+		a.insertAtFront(6);
+		a.insertAtRear(10);
+		a.insertAtFront(1);
+		a.show();
+		a.insertAtRear(20);
+		a.show();
+		a.insertAtRear(30);
+//		a.removeFromFront();
+		a.show();
+
+	}
+
+}

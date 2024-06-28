@@ -1,0 +1,8 @@
+package com.exception;
+
+public class QueueUnderFLowException extends RuntimeException{
+	public QueueUnderFLowException(String msg) {
+		super(msg);
+	}
+
+}

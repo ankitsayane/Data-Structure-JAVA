@@ -1,0 +1,54 @@
+package com.operations;
+
+public class SortedDoublyLL implements DoubleLinkedList {
+	class Node{
+		int data;
+		Node next;
+		Node prev;
+		public Node(int data){
+			this.data = data;
+			this.next = null;
+			this.prev = null;
+		}
+	}
+	
+	Node head;
+	public SortedDoublyLL() {
+		this.head = null;
+	}
+
+	@Override
+	public void push(int data) {
+		Node newNode  = new Node(data);
+		if(isEmpty()) {
+			head = newNode;
+			return;
+		}
+
+	}
+
+	@Override
+	public void pop() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void show() {
+		Node temp = head;
+		while(temp != null) {
+			System.out.print(temp.data + " ");
+			temp = temp.next;
+		}
+		System.out.println();
+	}
+
+	@Override
+	public boolean isEmpty() {
+		if(head == null) {
+			return true;
+		}
+		return false;
+	}
+
+}

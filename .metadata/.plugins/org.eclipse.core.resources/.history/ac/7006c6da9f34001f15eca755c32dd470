@@ -1,0 +1,37 @@
+package com.bst;
+
+public class BinaryTreeImpl {
+	class Node{
+		int data;
+		Node left;
+		Node right;
+		public Node(int data) {
+			this.data = data;
+			left = right = null;
+		}
+	}
+	
+	Node root;
+	public BinaryTreeImpl() {
+		root = null;
+	}
+	
+	public Node add(int data) {
+		Node newNode = new Node(data);
+		return newNode;
+	}
+	
+	private void preorder(Node root) {
+		if(root == null) {
+			return;
+		}
+		
+		System.out.print(root.data + " ");
+		preorder(root.left);
+		preorder(root.right);
+	}
+	public void preorder() {
+		preorder(root);
+		System.out.println();
+	}
+}

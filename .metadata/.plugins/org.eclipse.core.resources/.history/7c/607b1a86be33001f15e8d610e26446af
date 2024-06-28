@@ -1,0 +1,16 @@
+package com.doublyCircularLL;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		DoublyLinkedList a = new CircularDoublyLL();
+		a.addAtRear(12);
+		a.addAtRear(15);
+		a.addAtRear(10);
+		a.deleteFromFront();
+		a.deleteFromRear();
+		a.display();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.operations;
+
+public interface LinkedList {
+	void insertionAtFront(int data);
+	void insertionAtEnd(int data);
+	void deleteFromFront();
+	void deleteFromEnd();
+	void display();
+	boolean isEmpty();
+}

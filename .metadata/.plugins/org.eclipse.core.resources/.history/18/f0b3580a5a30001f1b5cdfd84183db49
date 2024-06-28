@@ -1,0 +1,27 @@
+package com.stack;
+
+import java.util.Scanner;
+
+import com.operations.Stack;
+import com.operations.StackOperations;
+
+public class StackTester {
+	public static void main(String[] args) {
+		try(Scanner sc = new Scanner(System.in)){
+			Stack stack = new StackOperations();
+			int choice;
+			int ele;
+			
+			do {
+				System.out.println("1. Push\n"
+						+ "2. Pop\n"
+						+ "3. Peek\n"
+						+ "4. Show\n"
+						+ "5. Exit");
+				System.out.print("Enter your choice - ");
+				choice = sc.nextInt();
+				
+			}while(choice!=4);
+		}
+	}
+}

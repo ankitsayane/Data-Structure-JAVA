@@ -1,0 +1,69 @@
+package com.operations;
+
+public class LinkedList implements SingleLinkedList{
+	//Linked List
+	class Node{
+		int data;
+		Node next;
+	}
+	
+	Node head;
+	Node tail;
+	
+	public LinkedList() {
+		this.head = null;
+		this.tail = null;
+	}
+	
+
+	@Override
+	public void addAtFront(int data) {
+		Node newNode = new Node();
+		newNode.data = data;
+		newNode.next = head;
+		head = newNode;
+		
+		if(tail==null) {
+			tail = newNode;
+		}
+		
+	}
+
+	@Override
+	public void addAtRear(int data) {
+		Node newNode = new Node();
+		newNode.data = data;
+		newNode.next = null;
+		
+		if(isEmpty()) {
+			head = newNode;
+			tail = newNode;
+		}
+		
+	}
+
+	@Override
+	public void deleteFromFront() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteFromRear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

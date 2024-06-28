@@ -1,0 +1,86 @@
+package com.operations;
+
+import com.exception.ResourceNotFoundException;
+
+public class LinkedList implements SingleLinkedList{
+	//Linked List
+	class Node{
+		int data;
+		Node next;
+	}
+	
+	Node head;
+	Node tail;
+	
+	public LinkedList() {
+		this.head = null;
+		this.tail = null;
+	}
+	
+
+	@Override
+	public void addAtFront(int data) {
+		Node newNode = new Node();
+		newNode.data = data;
+		newNode.next = head;
+		head = newNode;
+		
+		if(tail==null) {
+			tail = newNode;
+		}
+		
+	}
+
+	@Override
+	public void addAtRear(int data) {
+		Node newNode = new Node();
+		newNode.data = data;
+		newNode.next = null;
+		
+		if(isEmpty()) {
+			head = newNode;
+			tail = newNode;
+		}
+		
+		tail.next = newNode;
+		tail = newNode;
+	}
+
+	@Override
+	public void deleteFromFront() {
+		if(isEmpty()) {
+			throw new ResourceNotFoundException("Linked List is Empty");
+		}
+		
+		head = head.next;
+		
+		if(isEmpty()) {
+			tail = null;
+		}
+	}
+
+	@Override
+	public void deleteFromRear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void show() {
+		Node temp = head;
+		while(temp.next != null) {
+			System.out.print(temp.data + " ");
+			temp = temp.next;
+		}
+		System.out.println();
+	}
+
+	@Override
+	public boolean isEmpty() {
+		if(head==null) {
+			return true;
+		}
+		return false;
+	}
+
+}

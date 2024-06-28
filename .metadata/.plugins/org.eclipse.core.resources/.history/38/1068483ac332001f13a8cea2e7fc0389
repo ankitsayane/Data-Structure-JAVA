@@ -1,0 +1,42 @@
+package com.operations;
+
+public class SortedLinkedList implements LinkedList {
+	class Node{
+		int data;
+		int next;
+		public Node(int data) {
+			this.data = data;
+			this.next = null;
+		}
+	}
+	
+	Node head;
+	public SortedLinkedList() {
+		this.head = null;
+	}
+
+	@Override
+	public void insert(int data) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void remove(int data) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

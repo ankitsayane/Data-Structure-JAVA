@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.day1.ArrayOperations"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.operations.Stack"/>
+    <fullyQualifiedTypeName name="com.operations.StackOperations"/>
+    <fullyQualifiedTypeName name="com.exception.StackUnderFlowException"/>
+    <fullyQualifiedTypeName name="com.exception.QueueOverFLowException"/>
+    <fullyQualifiedTypeName name="com.exception.QueueUnderFLowException"/>
+    <fullyQualifiedTypeName name="com.operations.QueueOperations"/>
+    <fullyQualifiedTypeName name="com.exceptions.ResourceNotFoundException"/>
+    <fullyQualifiedTypeName name="com.operations.LinkedListQueue"/>
+    <fullyQualifiedTypeName name="com.operations.Queue"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.operations.SingleLinkedList"/>
+    <fullyQualifiedTypeName name="com.operations.DoublyLinkedList"/>
+    <fullyQualifiedTypeName name="com.tester.DoubleLinkedList"/>
+    <fullyQualifiedTypeName name="com.operations.SortedDoublyLL"/>
+    <fullyQualifiedTypeName name="java.lang.module.ResolutionException"/>
+    <fullyQualifiedTypeName name="com.exception.ResourceNotFoundException"/>
+    <fullyQualifiedTypeName name="com.operations.SortedLinkedList"/>
+    <fullyQualifiedTypeName name="com.operations.LinkedList"/>
+    <fullyQualifiedTypeName name="com.operations.CircularLinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.doublyCircularLL.DoublyLinkedList"/>
+    <fullyQualifiedTypeName name="com.doublyCircularLL.CircularDoublyLL"/>
+    <fullyQualifiedTypeName name="com.bst.BinarySearchTree"/>
+    <fullyQualifiedTypeName name="com.bst.BinaryTreeImpl"/>
+</qualifiedTypeNameHistroy>

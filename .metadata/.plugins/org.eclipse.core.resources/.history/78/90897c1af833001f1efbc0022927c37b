@@ -1,0 +1,32 @@
+package com.bst;
+
+public class BinarySearchTree {
+	
+	class Node{
+		int data;
+		Node left;
+		Node right;
+		public Node(int data) {
+			this.data = data;
+			left = null;
+			right = null;
+		}
+	}
+	
+	Node trav;
+	public BinarySearchTree() {
+		trav = null;
+	}
+	
+	
+	public void postorder(Node trav) {
+		if(trav==null) {
+			return;
+		}
+		System.out.print(trav.data + " ");
+		postorder(trav.left);
+		postorder(trav.right);
+	}
+	
+
+}

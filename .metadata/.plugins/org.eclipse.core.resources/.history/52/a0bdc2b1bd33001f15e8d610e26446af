@@ -1,0 +1,145 @@
+package com.doublyCircularLL;
+
+public class CircularDoublyLL implements DoublyLinkedList {
+	class Node{
+		int data;
+		Node next;
+		Node prev;
+		public Node(int data){
+			this.data = data;
+			this.next = null;
+			this.prev = null;
+		}
+	}
+	
+	Node head;
+	public CircularDoublyLL() {
+		head = null;
+	}
+
+	@Override
+	public void addAtFront(int data) {
+		Node newNode = new Node(data);
+		
+		if(isEmpty()) {
+			head = newNode;
+			newNode.next = head;
+			newNode.prev = head;
+			return;
+		}
+		
+		Node temp = head;
+		while(temp.next != head) {
+			temp = temp.next;
+		}
+		
+		head.prev = newNode;
+		temp.next = newNode;
+		newNode.next = head;
+		newNode.prev = temp;
+		head = newNode;
+		
+		
+
+	}
+
+	@Override
+	public void addAtRear(int data) {
+		Node newNode = new Node(data);
+		
+		if(isEmpty()) {
+			head = newNode;
+			newNode.next = head;
+			newNode.prev = head;
+			return;
+		}
+		
+		Node temp = head;
+		while(temp.next != head) {
+			temp = temp.next;
+		}
+		
+		temp.next = newNode;
+		newNode.prev = temp;
+		newNode.next = head;
+		head.prev = newNode;
+
+	}
+
+	@Override
+	public void addAtPosition(int data, int pos) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteFromFront() {
+		if(isEmpty()) {
+			System.out.println("List is Empty");
+			return;
+		}
+		Node temp = head;
+		while(temp.next != head) {
+			temp = temp.next;
+		}
+		
+		head = head.next;
+		head.prev = temp;
+		temp.next = head;
+
+	}
+
+	@Override
+	public void deleteFromRear() {
+		if(isEmpty()) {
+			System.out.println("List is empty");
+			return;
+		}
+		
+		if(head.next == head) {
+			head = null;
+			return;
+		}
+		
+		Node temp = head;
+		
+		if(temp.next.next == head) {
+			temp.next = head;
+			head.prev = temp;
+		}
+		temp = head;
+		while(temp.next.next != head) {
+			temp = temp.next;
+		}
+		
+		temp.next = head;
+		head.prev = temp;
+
+	}
+
+	@Override
+	public void deleteFromPosition(int pos) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void display() {
+		Node temp = head;
+		while(temp.next != head) {
+			System.out.print(temp.data + " ");
+			temp = temp.next;
+		}
+		System.out.print(temp.data);
+		System.out.println();
+	}
+
+	@Override
+	public boolean isEmpty() {
+		if(head == null) {
+			return true;
+		}
+		return false;
+	}
+
+}

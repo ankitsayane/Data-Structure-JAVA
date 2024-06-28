@@ -1,0 +1,48 @@
+package com.operations;
+
+public class StackOperations implements Stack {
+
+	int size = SIZE;
+	int top = -1;
+	
+	@Override
+	public boolean isEmpty() {
+		if(top==-1) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public boolean isFull() {
+		if(top==size-1) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void push(int ele) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int pop() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int peek() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

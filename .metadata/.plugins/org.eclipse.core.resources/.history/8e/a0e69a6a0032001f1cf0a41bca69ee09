@@ -1,0 +1,56 @@
+package com.operations;
+
+public class DoublyLinkedList implements LinkedList {
+	class Node{
+		int data;
+		Node prev;
+		Node next;
+		Node(int data){
+			this.data = data;
+			this.prev = null;
+			this.next = null;
+		}
+	}
+	
+	Node head;
+	public DoublyLinkedList() {
+		head = null;
+	}
+
+	@Override
+	public void insertAtFront(int data) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void insertAtRear(int data) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteFromFront() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteFromRear() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
