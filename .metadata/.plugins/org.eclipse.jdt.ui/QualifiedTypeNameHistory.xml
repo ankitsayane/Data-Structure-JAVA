@@ -27,4 +27,6 @@
     <fullyQualifiedTypeName name="com.doublyCircularLL.CircularDoublyLL"/>
     <fullyQualifiedTypeName name="com.bst.BinarySearchTree"/>
     <fullyQualifiedTypeName name="com.bst.BinaryTreeImpl"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.operations.BinarySearchTree"/>
 </qualifiedTypeNameHistroy>
