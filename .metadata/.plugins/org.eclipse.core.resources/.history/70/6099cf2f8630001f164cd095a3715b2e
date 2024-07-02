@@ -1,7 +1,0 @@
-package com.tester;
-
-public class LikedListTester {
-	public static void main(String[] args) {
-		
-	}
-}

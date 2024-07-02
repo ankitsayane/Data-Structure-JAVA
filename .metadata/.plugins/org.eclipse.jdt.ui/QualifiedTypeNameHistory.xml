@@ -29,4 +29,6 @@
     <fullyQualifiedTypeName name="com.bst.BinaryTreeImpl"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.operations.BinarySearchTree"/>
+    <fullyQualifiedTypeName name="bubblesort.BubbleSort"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
 </qualifiedTypeNameHistroy>
