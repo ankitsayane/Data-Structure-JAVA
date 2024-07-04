@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy package &apos;com.exception&apos; to &apos;DAY_4_DoubleLinkedList/src/com.operations&apos;&#x0D;&#x0A;- Original project: &apos;DoublyLinkedList&apos;&#x0D;&#x0A;- Destination element: &apos;DAY_4_DoubleLinkedList/src/com.operations&apos;&#x0D;&#x0A;- Original element: &apos;DoublyLinkedList/src/com.exception&apos;" description="Copy package" destination="=DAY_4_DoubleLinkedList/src&lt;com.operations" element1="/src&lt;com.exception" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1719247735941" version="1.0"/>
-</session>
