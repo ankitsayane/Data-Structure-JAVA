@@ -1,5 +1,0 @@
-package com.doublyCircularLL;
-
-public interface DoublyLinkedList {
-
-}

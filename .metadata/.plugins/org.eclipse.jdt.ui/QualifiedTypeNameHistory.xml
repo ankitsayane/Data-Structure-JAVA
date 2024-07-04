@@ -36,7 +36,12 @@
     <fullyQualifiedTypeName name="graph.GraphAdjacencyMatrix"/>
     <fullyQualifiedTypeName name="weightedgraph.WeightedGraphMatrix"/>
     <fullyQualifiedTypeName name="adjListNonWeightedGraph.AdjListGraphImpl"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="adjListWeightedGraph.AdjListWeightedGraph.Edge"/>
     <fullyQualifiedTypeName name="adjListWeightedGraph.AdjListWeightedGraph"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
+    <fullyQualifiedTypeName name="prims.PrimsMST"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="kruskals.KruskalMatrix"/>
 </qualifiedTypeNameHistroy>
